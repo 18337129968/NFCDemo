@@ -39,7 +39,7 @@
         <activity
             android:name=".ReadNFCActivity"
             android:label="NFC"
-            android:launchMode="singleTop" />
+            android:launchMode="singleTask" />
         <activity android:name=".BluetoothActivity"
             android:label="BLUE"/>
     </application>
