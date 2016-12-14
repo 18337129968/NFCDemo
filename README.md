@@ -1,5 +1,5 @@
 # NFCDemo
-NFC是一套短距离的无线通信，通常距离是4厘米或更短。
+NFC是一套短距离的无线通信，通常距离是4厘米或更短。但传输建立速度要比红外和蓝牙技术快很多，传输速度比红外块得多。
 ###AndroidManifest
 ```
  <uses-permission android:name="android.permission.NFC" />
