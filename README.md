@@ -20,3 +20,6 @@ NFC是一套短距离的无线通信，通常距离是4厘米或更短。但传�
  byte[] rawIdm = intent.getByteArrayExtra(NfcAdapter.EXTRA_ID);
 ```
 需要转换十六进制，4字节标签id可生产42.9亿，不能保证就是唯一ID，但42.9亿个几乎是唯一的，如果不放心可写入nfc标签UUID
+<br><br>
+***相关技术文档***
+[Android开发 NFC技术开发（一）](http://blog.csdn.net/xhf_123/article/details/53640418)
